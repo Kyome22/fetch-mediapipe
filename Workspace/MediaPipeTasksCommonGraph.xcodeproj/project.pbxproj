@@ -8,27 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		1CF4CAF82EDB3BBF000A6418 /* MediaPipeTasksCommon.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF4CAF72EDB3BB3000A6418 /* MediaPipeTasksCommon.xcframework */; };
-		1CF4CAF92EDB3BBF000A6418 /* MediaPipeTasksCommon.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF4CAF72EDB3BB3000A6418 /* MediaPipeTasksCommon.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1CF4CB0D2EDB4661000A6418 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF4CB0C2EDB4661000A6418 /* ImageIO.framework */; };
 		1CF4CB0F2EDB4679000A6418 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF4CB0E2EDB4679000A6418 /* Metal.framework */; };
 		1CF4CB132EDB46C8000A6418 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF4CB122EDB46C8000A6418 /* UIKit.framework */; };
 		1CF4CB152EDB46DD000A6418 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF4CB142EDB46DD000A6418 /* OpenGLES.framework */; };
 		1CF4CB172EDB4733000A6418 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF4CB162EDB4733000A6418 /* Foundation.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		1CF4CAFA2EDB3BBF000A6418 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				1CF4CAF92EDB3BBF000A6418 /* MediaPipeTasksCommon.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1CF4CAB12EDAF156000A6418 /* MediaPipeTasksCommonGraph.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MediaPipeTasksCommonGraph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,7 +118,6 @@
 				1CF4CAAD2EDAF156000A6418 /* Sources */,
 				1CF4CAAE2EDAF156000A6418 /* Frameworks */,
 				1CF4CAAF2EDAF156000A6418 /* Resources */,
-				1CF4CAFA2EDB3BBF000A6418 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
