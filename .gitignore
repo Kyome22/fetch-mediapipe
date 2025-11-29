@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Xcode
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+DerivedData/
+
+# Swift Package Manager
+/.swiftpm
+/.build
+
+# Fetch MediaPipe
+/Workspace/Frameworks
+/Workspace/PodArchive
