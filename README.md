@@ -59,3 +59,7 @@ let package = Package(
 ```
 
 To actually use MediaPipeTasksVision, you need to download and load a pre-trained model (such as [face_landmarker.task](https://ai.google.dev/edge/mediapipe/solutions/vision/face_landmarker)).
+
+## Special Thanks
+
+I've found [paescebu/SwiftTasksVision](https://github.com/paescebu/SwiftTasksVision) to be very helpful. Thank you!
