@@ -49,7 +49,6 @@ let package = Package(
             resources: [
                 .process("Resources/face_landmarker.task"),
             ],
-            swiftSettings: swiftSettings,
             linkerSettings: [
                 .unsafeFlags(["-ObjC"]),
             ]
