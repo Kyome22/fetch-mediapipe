@@ -1,6 +1,6 @@
 # fetch-mediapipe
 
-This is a tool that obtains the specified version of MediaPipe's XCFrameworks and builds them for Swift Package.
+This is a tool that obtains the specified version of [MediaPipe](https://github.com/google-ai-edge/mediapipe)'s XCFrameworks and builds them for Swift Package.
 
 ## Usage
 
